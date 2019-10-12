@@ -1,0 +1,16 @@
+Git branch <branch name> 	--creates branch
+Git checkout <branch name>	--goes on branch
+Git status			--shows stage
+				--make own file on computer
+Get add filename.txt		--puts file on stage
+Git status			--shows stage
+Git commit -m"fix bug in file"	--saves a message to the commit
+				--still on local computer tho
+Git push origin <branch>	--sends to remote repository
+Git pull			--requests updates from remote repository
+----------------------------------------------------------------------------------
+Git rebase <branch_name>	--moves branch onto head, so makes it linear
+Git merge <branch_name>		--merges head and branch
+Git rebase <branch_name>	--plucks a specific commit
+----------------------------------------------------------------------------------
+Git clone <url>			--creates it onto my desktop
